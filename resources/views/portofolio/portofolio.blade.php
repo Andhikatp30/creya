@@ -37,7 +37,7 @@
                             <img 
                                 class="h-auto max-w-full rounded-lg transform transition-transform duration-500 ease-in-out group-hover:scale-110" 
                                 src="{{ asset('images/' . $image) }}" 
-                                alt="Portfolio Image {{ $image }}">
+                                alt="Portfolio Image {{ $image }}"> 
                             
                             <!-- Overlay Effect -->
                             <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 transition-opacity duration-500 group-hover:opacity-100">
